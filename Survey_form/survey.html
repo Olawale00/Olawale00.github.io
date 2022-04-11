@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Lord Reigneth Resturant
+	</title>
+
+	<link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+	<h1>Customer Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		<div class="form-control">
+			<label for="address" id="label-address">
+				Address
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="address"
+				placeholder="Enter your address" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which of our branch did you visit?
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="Select option">---Select option---</option>
+				<option value="Lekki">Lekki</option>
+				<option value="Gbagada">Gbagada</option>
+				<option value="Ikeja">
+					Ikeja
+				</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				Do you enjoy our services?
+			</label>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Maybe</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label>What do you want on our menu
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Desert</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Animal fries</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Chips and salsa</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Nachos</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Vegetables and dip</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Chicken Alfredo</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Chicken Sandwich</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Broccoli Cheddar Soup</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">McNuggets</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Cajun Shrimp and Chicken Pasta</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Any comments or suggestions
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>
